@@ -15,6 +15,7 @@
     justify-items: center;
     align-items: center;
     align-content: space-around;
+    background-image: url(../restaurant.jpg);
 }
 div {
     border: 1px green solid;
@@ -25,4 +26,5 @@ div {
 .info {
     flex: 1 1 100px;
     width: 200px;
+    background-color: white;
 }
