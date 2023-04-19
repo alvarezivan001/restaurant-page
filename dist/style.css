@@ -1,0 +1,28 @@
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#header, #footer {
+    flex: 1 1 50px;
+    display: flex;
+ 
+}
+#main {
+    flex: 5 1 900px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-content: space-around;
+}
+div {
+    border: 1px green solid;
+}
+#home, #menu, #contact {
+    flex: 1;
+}
+.info {
+    flex: 1 1 100px;
+    width: 200px;
+}
