@@ -1,6 +1,6 @@
 function LoadMenu() {
     const main = document.getElementById('main');
-    main.textContent = 'menu';
+    main.textContent = '';
 };
 
 export default LoadMenu;
