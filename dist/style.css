@@ -23,7 +23,7 @@ div {
 #home, #menu, #contact {
     flex: 1;
 }
-.info {
+.info, .item {
     flex: 1 1 100px;
     width: 200px;
     background-color: white;
